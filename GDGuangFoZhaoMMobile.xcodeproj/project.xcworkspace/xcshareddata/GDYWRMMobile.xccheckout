@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D125614F-C1A1-4118-9865-BA65B939B7B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GDYWRMMobile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2693a6d5-1ebd-46bd-a85d-33a72c51ae1b++1740</key>
+		<string>http://svn.edaoyou.com/edaoyou/GDRMMobile</string>
+		<key>CC9E6813401FC20BF860D9A1BE28999344063381</key>
+		<string>http://192.168.0.243/guizhouluzheng.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GDYWRMMobile.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2693a6d5-1ebd-46bd-a85d-33a72c51ae1b++1740</key>
+		<string>../../../..</string>
+		<key>CC9E6813401FC20BF860D9A1BE28999344063381</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>2693a6d5-1ebd-46bd-a85d-33a72c51ae1b++1740</key>
+		<string>http://svn.edaoyou.com/edaoyou</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.edaoyou.com/edaoyou</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CC9E6813401FC20BF860D9A1BE28999344063381</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC9E6813401FC20BF860D9A1BE28999344063381</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2693a6d5-1ebd-46bd-a85d-33a72c51ae1b++1740</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CC9E6813401FC20BF860D9A1BE28999344063381</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GDRMMobileYunWu</string>
+		</dict>
+	</array>
+</dict>
+</plist>
