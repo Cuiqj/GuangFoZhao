@@ -447,6 +447,7 @@
                             <size width = "16.5" height = "11.25" />
                             <data>
                                 <attributeName>quantity</attributeName>
+                                <mode>#,##0.000</mode>
                             </data>
                         </cell>
                         <!--单位-->

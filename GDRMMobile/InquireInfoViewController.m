@@ -625,10 +625,10 @@ enum kUITextFieldTag {
             } else {
                 remarkString=[NSString stringWithFormat:@"（%@）",remarkString];
             }
-            NSString *quantity=[[NSString alloc] initWithFormat:@"%.2f",deform.quantity.floatValue];
+            NSString *quantity=[[NSString alloc] initWithFormat:@"%.3f",deform.quantity.floatValue];
 //            NSCharacterSet *zeroSet=[NSCharacterSet characterSetWithCharactersInString:@".0"];
 //            quantity=[quantity stringByTrimmingTrailingCharactersInSet:zeroSet];
-            for(int i =0;i<3;i++){
+            for(int i =0;i<4;i++){
                 NSString *last = [quantity substringFromIndex:quantity.length-1];
                 if([last isEqualToString:@"0"] || [last isEqualToString:@"."]){
                     quantity = [quantity substringToIndex:quantity.length-1];

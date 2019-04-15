@@ -190,9 +190,9 @@ static NSString * xmlName = @"CaseCountTable";
     //cell.labelAssetSize.text = caseDeformation.rasset_size;
     
     if ([caseDeformation.unit rangeOfString:@"米"].location != NSNotFound) {
-        cell.labelQunatity.text=[NSString stringWithFormat:@"%.2f",caseDeformation.quantity.doubleValue];
+        cell.labelQunatity.text=[NSString stringWithFormat:@"%.3f",caseDeformation.quantity.doubleValue];
     } else {
-        cell.labelQunatity.text=[NSString stringWithFormat:@"%d",caseDeformation.quantity.integerValue];
+        cell.labelQunatity.text=[NSString stringWithFormat:@"%.3f",caseDeformation.quantity.doubleValue];
     }
     cell.labelAssetUnit.text = caseDeformation.unit;
     cell.labelPrice.text = [NSString stringWithFormat:@"%.2f元",caseDeformation.price.floatValue];

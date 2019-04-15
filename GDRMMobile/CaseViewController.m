@@ -1223,7 +1223,7 @@
     
     NSMutableString *str = [NSMutableString stringWithFormat:@"%@",[CaseProveInfo generateEventDescForCase:caseID]];
     
-    if (str==nil) {
+    if (str == nil) {
         NSRange range = [str rangeOfString:@"损坏公路路产"];
         [str replaceCharactersInRange:range withString:self.textCaseDesc.text];
         caseProveInfo.event_desc = str;

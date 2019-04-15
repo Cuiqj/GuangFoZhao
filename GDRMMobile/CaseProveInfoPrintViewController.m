@@ -106,6 +106,7 @@ static NSString * const xmlName = @"ProveInfoTable";
 - (IBAction)reFormEvetDesc:(UIButton *)sender {
     [self pageSaveInfo];
     self.textevent_desc.text = [CaseProveInfo generateEventDesc:self.caseID];
+    [[AppDelegate App]saveContext];
 }
 
 

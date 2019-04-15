@@ -30,6 +30,7 @@
         NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
         [numberFormatter setPositiveFormat:@"#,##0.00"];
         self.textPrice.text = [numberFormatter stringFromNumber:self.countDetail.price];
+        [numberFormatter setPositiveFormat:@"#,##0.000"];
         self.textQuantity.text = [numberFormatter stringFromNumber:self.countDetail.quantity];
 		self.textRemark.text = self.countDetail.remark;
     }
@@ -37,7 +38,7 @@
 
 
 - (IBAction)btnDismiss:(UIBarButtonItem *)sender {
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)btnComfirm:(UIBarButtonItem *)sender {
@@ -62,7 +63,7 @@
         [[AppDelegate App] saveContext];
         [self.delegate reloadDataArray];
     }
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)viewDidUnload {
